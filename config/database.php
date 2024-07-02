@@ -38,6 +38,11 @@ return [
             'prefix' => '',
             'foreign_key_constraints' => env('DB_FOREIGN_KEYS', true),
         ],
+        'mongodb' => [
+        'driver' => 'mongodb',
+        'dsn' => env('DB_URI'),
+        'database' => 'pharmacy',
+      ],
 
         'mysql' => [
             'driver' => 'mysql',
