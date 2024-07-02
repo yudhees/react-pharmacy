@@ -41,6 +41,7 @@ return [
         'mongodb' => [
         'driver' => 'mongodb',
         'dsn' => env('DB_URI'),
+        mongodb+srv://Nithish:ntHlYGEFrHN84C6M@cluster0.kspw7gm.mongodb.net/cluster0-db?retryWrites=true&w=majority
         'database' => 'pharmacy',
       ],
 
